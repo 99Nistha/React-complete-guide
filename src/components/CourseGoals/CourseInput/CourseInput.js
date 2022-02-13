@@ -30,15 +30,6 @@ const FormControl = styled.div`
     background: #fad0ec;
     border-color: #8b005d;
   }
-
-  &.inValid label {
-    color: red;
-  }
-
-  &.inValid input {
-    border-color: red;
-    background-color: rgb(243, 193, 193);
-  }
 `;
 
 const CourseInput = (props) => {
